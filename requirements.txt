@@ -1,0 +1,6 @@
+# Requirements for UHL Tkinter Project
+# Tkinter is built-in with Python, no installation needed
+# Only additional libraries listed here
+
+numpy
+pandas
