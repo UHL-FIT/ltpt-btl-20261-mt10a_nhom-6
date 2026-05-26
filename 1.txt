@@ -1,0 +1,15 @@
+BÁO CÁO THỐNG KÊ KẾT QUẢ HỌC TẬP
+========================================
+
+1. CHỈ SỐ THỐNG KÊ:
+- GPA trung bình: 6.0000
+- GPA cao nhất: 10.0000
+- GPA thấp nhất: 3.0000
+- Độ lệch chuẩn: 2.9439
+
+2. PHÂN BỐ XẾP LOẠI:
+- Không đạt: 2 sinh viên
+- Đạt loại Xuất sắc: 1 sinh viên
+
+3. TOP 10 SINH VIÊN XUẤT SẮC NHẤT:
+1. 22 - hai - GPA: 10.0000 - Xếp loại: Đạt loại Xuất sắc

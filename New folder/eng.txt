@@ -1,0 +1,55 @@
+HỆ THỐNG CHINH PHỤC ĐA NGÔN NGỮ VÀ CHỨNG CHỈ QUỐC TẾ (MASTER LANGUAGE FILE)
+
+I. CHIẾN LƯỢC CHO CÁC CHỨNG CHỈ QUỐC TẾ
+1. IELTS (International English Language Testing System)
+   - Listening: Luyện nghe chép chính tả (Dictation) và dự đoán loại từ.
+   - Reading: Master kỹ thuật Skimming (đọc lướt ý chính) và Scanning (tìm từ khóa).
+   - Writing: Xây dựng kho cấu trúc câu phức và từ vựng học thuật (Academic Word List).
+   - Speaking: Tập trung vào độ trôi chảy (Fluency) và sự mạch lạc (Coherence).
+
+2. TOEIC (Test of English for International Communication)
+   - Ngữ pháp: Tập trung vào cấu trúc câu trong văn phòng, email, hợp đồng.
+   - Từ vựng: Các chủ đề kinh tế, nhân sự, du lịch, hội nghị.
+   - Tốc độ: Luyện giải đề dưới áp lực thời gian để làm quen với 200 câu hỏi trong 120 phút.
+
+3. HSK (Hanyu Shuiping Kaoshi - Tiếng Trung)
+   - Chữ Hán: Học theo bộ thủ và câu chuyện để ghi nhớ mặt chữ.
+   - Pinyin: Nắm vững bảng phiên âm và 4 thanh điệu cơ bản.
+   - HSK 1-9: Lộ trình từ cơ bản (giao tiếp hằng ngày) đến cao cấp (biên phiên dịch).
+
+II. KHUNG PHÁT TRIỂN NGÔN NGỮ TỰ DO (ANY LANGUAGE)
+1. Giai đoạn 1: Xây dựng nền móng (Cấp độ A1-A2)
+   - Học 500-1000 từ vựng thông dụng nhất của ngôn ngữ đó.
+   - Nắm vững cấu trúc câu khẳng định, phủ định, nghi vấn.
+2. Giai đoạn 2: Đắm mình (Cấp độ B1-B2)
+   - Xem phim, nghe podcast với phụ đề song ngữ.
+   - Áp dụng phương pháp Shadowing (nói đuổi) để luyện ngữ điệu.
+3. Giai đoạn 3: Tinh thông (Cấp độ C1-C2)
+   - Đọc các tài liệu chuyên ngành, triết học hoặc văn chương.
+   - Tham gia các cộng đồng thảo luận chuyên sâu bằng ngôn ngữ đích.
+
+III. TỐI ƯU HÓA VỚI NOTEBOOKLM (AI-POWERED LEARNING)
+1. Xây dựng Personal Corpus:
+   - Tải file `per.txt` lên đầu tiên để AI hiểu danh tính và quy tắc làm việc của bạn.
+   - Tải các file PDF sách giáo khoa, transcript video hoặc bài báo ngoại ngữ làm nguồn dữ liệu.
+2. Chat & Deep Dive:
+   - Sử dụng khung chat để yêu cầu AI giải thích ngữ pháp dựa trên đúng ngữ cảnh của tài liệu đã tải.
+   - Yêu cầu AI tạo bài kiểm tra từ vựng (Quizzes) từ chính các nguồn bạn đã cung cấp.
+3. Audio Overview & Studio:
+   - Chuyển đổi tài liệu văn bản thành các cuộc hội thoại âm thanh để luyện nghe thụ động khi làm việc khác.
+   - Sử dụng tính năng tóm tắt để nắm bắt nhanh các ý chính của một bài đọc dài.
+4. Quản lý ghi chú:
+   - Lưu lại các câu trả lời hay của AI thành "Saved Notes" để tạo thành một cuốn sổ tay học tập thông minh.
+
+IV. PHƯƠNG PHÁP TỐI ƯU HÓA HIỆU SUẤT HỌC TẬP
+1. Nguyên tắc Atomic: Thiết lập "ngưỡng tối thiểu" (Học ít nhất 2 từ mới mỗi ngày).
+2. Hệ thống ghi chú (Second Brain):
+   - Capture: Lưu mọi cụm từ hay gặp vào một file nháp.
+   - Distill: Lọc ra những gì thực sự cần cho mục tiêu hiện tại.
+3. Công cụ hỗ trợ:
+   - Anki/Quizlet: Học từ vựng bằng Flashcards.
+   - Language Reactor: Học ngoại ngữ qua YouTube và Netflix.
+
+V. LƯU Ý KHI NẠP VÀO HỆ THỐNG AI
+- Sử dụng file này làm nguồn chỉ dẫn (Source) để AI biết bạn đang theo lộ trình nào.
+- Yêu cầu AI kiểm tra trình độ định kỳ thông qua các bài test ngắn dựa trên nội dung trong file này.
