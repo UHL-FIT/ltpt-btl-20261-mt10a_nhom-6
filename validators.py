@@ -30,8 +30,10 @@ def validate_row(payload: dict) -> tuple[bool, str, dict | None]:
     if not credits_s:
         return False, "Mời bạn nhập tín chỉ.", None
 
+    import math
     try:
         score = float(score_s.replace(",", "."))
+        if math.isnan(score): raise ValueError
     except ValueError:
         return False, "Sai kiểu dữ liệu: Điểm phải là số (vd 8.5).", None
     if score < 0 or score > 10:
@@ -39,6 +41,7 @@ def validate_row(payload: dict) -> tuple[bool, str, dict | None]:
 
     try:
         credits = float(credits_s.replace(",", "."))
+        if math.isnan(credits): raise ValueError
     except ValueError:
         return False, "Sai kiểu dữ liệu: Tín chỉ phải là số.", None
     if credits <= 0:
@@ -49,7 +52,9 @@ def validate_row(payload: dict) -> tuple[bool, str, dict | None]:
         age_val = None
     else:
         try:
-            age_val = int(float(age_s.replace(",", ".")))
+            age_val_float = float(age_s.replace(",", "."))
+            if math.isnan(age_val_float): raise ValueError
+            age_val = int(age_val_float)
         except ValueError:
             return False, "Sai kiểu dữ liệu: Tuổi phải là số nguyên (vd 20).", None
         if age_val < 16 or age_val > 100:

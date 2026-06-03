@@ -252,8 +252,8 @@ class MainView(ctk.CTk):
             self.tree.insert("", "end", iid=str(r["row_id"]), values=(
                 r.get("row_id", ""), r.get("student_id", ""), r.get("full_name", ""),
                 r.get("gender", ""), "" if str(r.get("age", "")).lower() == "nan" else r.get("age", ""),
-                r.get("course_code", ""), "" if r.get("score", "") == "" else f"{float(r['score']):.2f}",
-                "" if r.get("credits", "") == "" else f"{float(r['credits']):.1f}", r.get("notes", "")
+                r.get("course_code", ""), "" if str(r.get("score", "")).strip() == "" or str(r.get("score", "")).lower() == "nan" else f"{float(r['score']):.2f}",
+                "" if str(r.get("credits", "")).strip() == "" or str(r.get("credits", "")).lower() == "nan" else f"{float(r['credits']):.1f}", r.get("notes", "")
             ))
 
     def selected_ids(self) -> list[int]:
