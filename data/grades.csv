@@ -1,4 +1,7 @@
 ﻿student_id,full_name,gender,age,course_code,score,credits,notes
 22,hai,Nam,19,anh,10.0,3.0,co gang them
 1,binh,Nữ,20,toan,3.0,3.0,cc
-01,souk,Nam,19,toan,5.0,3.0,co gang them
+1,souk,Nam,19,toan,5.0,3.0,co gang them
+,,,,,,,
+,,,,,,,
+,,,,,,,

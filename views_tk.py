@@ -192,19 +192,19 @@ class MainView(ctk.CTk):
         
         # Thêm mới (Xanh dương)
         ctk.CTkButton(self.action_frame, text="➕ Thêm mới", corner_radius=8,
-                      fg_color="#3b82f6", hover_color="#2563eb", font=ctk.CTkFont("Segoe UI", 12, "bold"),
+                      fg_color="#f63ba8", hover_color="#2563eb", font=ctk.CTkFont("Segoe UI", 12, "bold"),
                       command=lambda: self.on_add()).pack(side="left", padx=(0, 10))
         # Sửa (Xám)
-        ctk.CTkButton(self.action_frame, text="✏️ Sửa", corner_radius=8,
+        ctk.CTkButton(self.action_frame, text="✏️ Sửa   ", corner_radius=8,
                       fg_color=("#64748b", "#94a3b8"), hover_color="#475569", font=ctk.CTkFont("Segoe UI", 12, "bold"),
                       command=lambda: self.on_edit()).pack(side="left", padx=10)
         # Xóa (Đỏ)
         ctk.CTkButton(self.action_frame, text="🗑️ Xóa", corner_radius=8,
-                      fg_color="#ef4444", hover_color="#dc2626", font=ctk.CTkFont("Segoe UI", 12, "bold"),
+                      fg_color="#a5ef44", hover_color="#dc2626", font=ctk.CTkFont("Segoe UI", 12, "bold"),
                       command=lambda: self.on_delete()).pack(side="left", padx=10)
         # Bảng điểm cá nhân (Cam)
         ctk.CTkButton(self.action_frame, text="📜 Bảng điểm", corner_radius=8,
-                      fg_color="#f97316", hover_color="#ea580c", font=ctk.CTkFont("Segoe UI", 12, "bold"),
+                      fg_color="#100803", hover_color="#ea580c", font=ctk.CTkFont("Segoe UI", 12, "bold"),
                       command=lambda: self.on_transcript()).pack(side="left", padx=10)
         
         # Nhóm hành động Import / Export bên phải
@@ -306,7 +306,7 @@ class BaseRowDialog(ctk.CTkToplevel):
         ]
 
         for i, (lbl, key) in enumerate(fields):
-            ctk.CTkLabel(frm, text=lbl, font=ctk.CTkFont("Segoe UI", 12, "bold"), text_color=("#0f172a", "#f8fafc")).grid(row=i, column=0, sticky="w", pady=8, padx=15)
+            ctk.CTkLabel(frm, text=lbl, font=ctk.CTkFont("Segoe UI", 12, "bold"), text_color=("#9db2e7", "#904C21")).grid(row=i, column=0, sticky="w", pady=8, padx=15)
             if key == "gender":
                 w = ctk.CTkComboBox(frm, variable=self.vars[key], values=["Nam", "Nữ"], state="readonly", width=250,
                                     border_color=("#cbd5e1", "#52525b"), button_color=("#e2e8f0", "#3f3f46"))
